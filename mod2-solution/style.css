@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+			text-align: center;
+			font-style: italic;
+			margin-bottom: 20px;
+		}
+		h2{
+			float: right;
+			margin-top: 0px;
+			border: 1px solid black;
+			height: 15%;
+			width: 25%;
+			text-align: center;
+			
+			
+		}
+
+body{
+	font-weight: bold;
+}
+.bg1{
+	background-color: red;
+}
+.bg2{
+	background-color: yellow;
+}
+.bg3{
+	background-color: green;
+}
+.col{
+	width: 90%;
+	background-color: grey;
+	border: 2px solid black;
+	margin: auto;
+}
+
+@media (min-width: 992px){
+	.col-lg-3{
+        
+		float: left;
+		
+		
+		width: 33.33% ;
+		
+       }
+
+}
+p.big{
+	clear: right;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-3{
